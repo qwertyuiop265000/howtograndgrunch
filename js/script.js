@@ -24,7 +24,7 @@ var myArray = [
 ["extrovert", "To Grand Grunch, sacrifice two nonland, non-creature permanents other than Grand Grunch. <br>'?' is equal to your life total."],
 ["family man", "To Grand Grunch, Grunch. (go to the hellscube discord and type !grunch) <br>'?' is equal to 2."],
 ["grinch", "To Grand Grunch, steal target permanent. (You're considered its owner until end of game.) <br>'?' is equal to 1."],
-["GRAND DAD", "To Grand Grunch, shuffle the playlist on the bottom of this description. <br>'?' is equal to the number of minutes in the currently playing video. If playlist has no videos for some reason, '?' is 7. (https://music.youtube.com/playlist?list=PL3dGPfkLzu7zHzMkfQNn8UvEHj_74G8vs&si=DkQPW3G6QGjUDwTY)"],
+["GRAND DAD", "To Grand Grunch, shuffle the playlist on the bottom of this description. <br>'?' is equal to the number of minutes in the currently playing video. If playlist has no videos for some reason, '?' is 7. <br> (https://music.youtube.com/playlist?list=PL3dGPfkLzu7zHzMkfQNn8UvEHj_74G8vs&si=DkQPW3G6QGjUDwTY)"],
 ["storm player", "To Grand Grunch, Return Grand Grunch to your hand, except he has storm. <br>'?' is equal to 1."],
 ["chad", "To Grand Grunch, discard two cards. <br> '?' is equal to 7, and Grand Grunch has vigilance."],
 ["soyjak", "To Grand Grunch, cast a random copy of one of the Power Nine. <br> '?' is equal to 1."],
