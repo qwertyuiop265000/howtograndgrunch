@@ -31,7 +31,7 @@ var myArray = [
 ["stationary little wall", "To Grand Grunch, create a 1/1 Wall artifact creature token. <br> '?' is equal to 3 and Grand Grunch has defender."],
 ["Eater of Days", "To Grand Grunch, skip your next two turns. <br> '?' is equal to 9, and Grand Grunch has flying, vigilance, and trample."],
 ["Colossal Dreadmaw", "To Grand Grunch, put your Dreadmaw onto the battlefield. (If you don't have a Dreadmaw, conjure a Colossal Dreadmaw into your command zone, and it becomes your Dreadmaw.) <br> '?' is equal to 0."],
-["[BIG SHOT]", "TO [Grand Grunch], DEAL 3 DAMAGE TO ANY [Card-Shaped Game Object]! <br> [?] IS 2!"],
+["[BIG SHOT]", "TO [Grand Grunch], DEAL 3 DAMAGE TO ANY [Card-Shaped Game Object]! <br> '?' IS 2!"],
 ["madly-dancing clown", "To Grand Grunch, exile a card at random from each opponent’s graveyard. You may cast any number of spells from among cards exiled this way without paying their mana costs. Then each player who owns a spell you cast this way loses life equal to its mana value.. <br> '?' is equal to 2."],
 ["infinitely intolerable, endlessly annoying, undyingly irritating piece of crap", "To Grand Grunch, create a Chains of Mephistophiles token. <br>(Chains of Mephistophiles is a black enchantment with 'If a player would draw a card except the first one they draw in each of their draw steps, that player discards a card instead. If the player discards a card this way, they draw a card. If the player doesn’t discard a card this way, they mill a card.')<br> '?' is equal to 1."],
 
