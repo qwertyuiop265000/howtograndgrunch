@@ -1,11 +1,11 @@
 window.onload = function() {
 var myArray = [
 ["wacky little asshole", "To Grand Grunch, add a token copy of Grand Grunch to your hand. <br>'?' is equal to 4."],
-["wacky little boy", "To Grand Grunch, Grand Grunch fights up to one target creature. <br>'?' is equal to the number of creatures on the battlefield."],
-["wacky little chap", "To Grand Grunch, draw a card. <br> '?' is equal to 4."],
+["wacky little boy", "To Grand Grunch, Grand Grunch fights up to one target creature. If a creature you control died this way, claim the BONUS. <br>'?' is equal to the number of creatures on the battlefield."],
+["wacky little chap", "To Grand Grunch, draw a card and claim the BONUS. <br> '?' is equal to 4."],
 ["wacky little dude", "To Grand Grunch, create five token copies of Grand Grunch, except they don't Grand Grunch. <br>'?' is equal to 1."],
 ["wacky little egotist", "To Grand Grunch, add one mana of any color, then pay X mana. <br> '?' becomes equal to 2 to the power of X."],
-["wacky little fella", "To Grand Grunch, take an extra turn after this one. At the end of that turn, target opponent creates a token copy of Grand Grunch. <br>'?' is equal to 1."],
+["wacky little fella", "To Grand Grunch, take an extra turn after this one. At the end of that turn, target opponent creates a token copy of Grand Grunch and claims that Grand Grunch's BONUS. <br>'?' is equal to 1."],
 ["wacky little guy", "To Grand Grunch, draw two cards. <br> '?' is equal to the number of cards in your hand."],
 ["wacky little hooligan", "To Grand Grunch, do up to seven push-ups in real life. <br> '?' becomes equal to the number of push-ups you did. <i>(You are allowed to lie.)</i> <br> Doing push-ups is a special action and does not use the stack."],
 ["wacky little ingrate", "To Grand Grunch, attach Grand Grunch to target land you control, and create a token that's a copy of that land. Grand Grunch has the abilities of the land he is attached to. <br> '?' is equal to the number of lands you control."],
@@ -13,11 +13,11 @@ var myArray = [
 ["wacky little killer", "To Grand Grunch, destroy up to two target creatures with combined power 8 or less. <br> '?' is equal to 2."],
 ["wacky little lhurgoyf", "To Grand Grunch, mill 10 cards. <br> '?' is equal to the number of creature types among cards in your graveyard plus one, up to 10."],
 ["wacky little monster", "To Grand Grunch, replace target creature's power and toughness numbers with Grand Grunch's power and toughness question marks. <i>(Use scissors if you have to.)</i> <br> '?' becomes 0."],
-["wacky little nonce", "To Grand Grunch, gain control of up to one target creature with power 3 or less. <br> '?' is equal to the number of creatures you control."],
-["wacky little oaf", "To Grand Grunch, name a nonland card. Target opponent reveals their hand. If their hand contains the named card, '?' becomes 12 and Grand Grunch gains trample, haste, vigilance, and lifelink. Otherwise, '?' is 4."],
+["wacky little nonce", "To Grand Grunch, gain control of up to one target creature with power 3 or less. If no creature was targeted, claim the BONUS. <br> '?' is equal to the number of creatures you control."],
+["wacky little oaf", "To Grand Grunch, name a nonland card. Target opponent reveals their hand. If their hand contains the named card, '?' becomes 10, claim the BONUS, and Grand Grunch gains trample, haste, vigilance, and lifelink. Otherwise, '?' is 4."],
 ["wacky little prick", "To Grand Grunch, Grand Grunch becomes a token copy of Summon: Bahamut. You may use a physical token, replacement card, or overlay to represent this. I'm not a jerk. <br> '?' is irrelevant in this instance. He's a 9/9."],
 ["wacky little quack", "To Grand Grunch, draw target card in any zone, then put a card from your hand into that zone. <br> '?' is equal to the number of cards in your hand plus 2."],
-["wacky little ruffian", "To Grand Grunch, create a token copy of Grand Grunch. <br>'?' is equal to 1."],
+["wacky little ruffian", "To Grand Grunch, create a token copy of Grand Grunch, and claim its BONUS. <br>'?' is equal to 1."],
 ["greedy little scrooge", "To Grand Grunch, create two tapped Treasures. <br>'?' is equal to 2."],
 ["stupid little dingus", "To Grand Grunch, discard your hand. <br>'?' is equal to 8."],
 ["weird little introvert", "When you Grand Grunch, you may pay 3 life. If you do, draw a card. <br>'?' is equal to 13 minus your life total."],
@@ -31,9 +31,9 @@ var myArray = [
 ["stationary little wall", "To Grand Grunch, create a 1/1 Wall artifact creature token. <br> '?' is equal to 3 and Grand Grunch has defender."],
 ["Eater of Days", "To Grand Grunch, skip your next two turns. <br> '?' is equal to 9, and Grand Grunch has flying, vigilance, and trample."],
 ["Colossal Dreadmaw", "To Grand Grunch, put your Dreadmaw onto the battlefield. (If you don't have a Dreadmaw, conjure a Colossal Dreadmaw into your command zone, and it becomes your Dreadmaw.) <br> '?' is equal to 0."],
-["[BIG SHOT]", "TO [Grand Grunch], DEAL 3 DAMAGE TO ANY [Card-Shaped Game Object]! <br> [?] IS 2!"],
+["[BIG SHOT]", "TO [Grand Grunch], DEAL 3 DAMAGE TO ANY [Card-Shaped Game Object]! IF YOU [Destroyed] A PERMANENT THIS WAY, CLAIM THE WILD [BONUS] PRIZE! <br> [?] IS 2!"],
 ["madly-dancing clown", "To Grand Grunch, exile a card at random from each opponent’s graveyard. You may cast any number of spells from among cards exiled this way without paying their mana costs. Then each player who owns a spell you cast this way loses life equal to its mana value.. <br> '?' is equal to 2."],
-["infinitely intolerable, endlessly annoying, undyingly irritating piece of crap", "To Grand Grunch, create a Chains of Mephistophiles token. <br>(Chains of Mephistophiles is a black enchantment with 'If a player would draw a card except the first one they draw in each of their draw steps, that player discards a card instead. If the player discards a card this way, they draw a card. If the player doesn’t discard a card this way, they mill a card.')<br> '?' is equal to 1."],
+["infinitely intolerable, endlessly annoying, undyingly irritating piece of crap", "To Grand Grunch, create a Chains of Mephistophiles token. Claim the BONUS. <br>(Chains of Mephistophiles is a black enchantment with 'If a player would draw a card except the first one they draw in each of their draw steps, that player discards a card instead. If the player discards a card this way, they draw a card. If the player doesn’t discard a card this way, they mill a card.')<br> '?' is equal to 1."],
 
 ];
 
@@ -173,6 +173,7 @@ var randomGrunchImage = [
 
 var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 var randomFt = ftArray[Math.floor(Math.random()*ftArray.length)];
+var randomBonus = bonusArray[Math.floor(Math.random()*ftArray.length)];
 
 var randomGrunch = randomGrunchImage[Math.floor(Math.random()*randomGrunchImage.length)];
 var randomGrunchValue = Math.random();
@@ -185,6 +186,9 @@ guy.innerHTML = randomItem[0];
 
 var ft = document.getElementById('flavortext');
 ft.innerHTML = randomFt;
+
+var ft = document.getElementById('bonustext');
+ft.innerHTML = randomBonus;
 
 if (randomGrunchValue < 0.7) {
 document.getElementById("myImg").src = normalGrunchImage;
