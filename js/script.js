@@ -24,7 +24,7 @@ var myArray = [
 ["weirdly psychopathic extrovert", "To Grand Grunch, sacrifice two nonland, non-creature permanents other than Grand Grunch. <br>'?' is equal to your life total."],
 ["father of one", "To Grand Grunch, create a Grunch token. <br>(It's a ?/? creature. When it enters, Grunch. (go to the hellscube discord and type !grunch)) <br>'?' is equal to 2."],
 ["incorrigible grinch", "To Grand Grunch, steal target permanent. (You're considered its owner until end of game.) <br>'?' is equal to 1."],
-["7 GRAND DAD", "To Grand Grunch, shuffle the playlist on the bottom of this description. <br>'?' is equal to the number of minutes in the currently playing video. If playlist has no videos for some reason, '?' is 7. <br> (https://music.youtube.com/playlist?list=PL3dGPfkLzu7zHzMkfQNn8UvEHj_74G8vs&si=DkQPW3G6QGjUDwTY)"],
+["7 GRAND DAD", "To Grand Grunch, shuffle the playlist on the bottom of this description. <br>'?' is equal to the number of minutes in the currently playing video. If playlist has no videos for some reason, '?' is 7. <br> (https://music.youtube.com/playlist?list=PL3dGPfkLzu7zHzMkfQNn8UvEHj_74G8vs)"],
 ["crazy storm player", "To Grand Grunch, Return Grand Grunch to your hand, except he has storm. <br>'?' is equal to 1."],
 ["buff, muscular chad", "To Grand Grunch, discard two cards. <br> '?' is equal to 7, and Grand Grunch has vigilance."],
 ["weak, stupid soyjak", "To Grand Grunch, cast a random copy of one of the Power Nine. <br> '?' is equal to 1."],
