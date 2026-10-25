@@ -34,7 +34,10 @@ var funValueEvents = [
 ["31: End", "End the turn. (Exile all spells and abilities from the stack, including this card. Discard down to your maximum hand size. Damage wears off, and “this turn” and “until end of turn” effects end.)"],
 ["32: Explore", "You may play an additional land this turn."],
 ["33: Right Number", "Draw two cards."],
-["33: Right Number", "Oh it's the wrong number! The wrong number song! We're very very sorry that we got it wrong! Oh it's the wrong number! The wrong number song! We're very very sorry that we got it wrong! Anyways, each opponent draws two cards."],
+["33: Wrong Number", "Oh it's the wrong number! The wrong number song! We're very very sorry that we got it wrong! Oh it's the wrong number! The wrong number song! We're very very sorry that we got it wrong! Anyways, each opponent draws two cards."],
+["35: Hexomino", "You may cast a copy of Hex without paying its mana cost. (It must target six creatures.)"],
+["36: Green", "Add three green mana."],
+["37: OH THERE IT IS AGAIN, 37", "You may refresh this page. If this fun value is rolled again, you win the game."],
   
 ];
 
