@@ -1,9 +1,23 @@
 window.onload = function() {
 var funValueEvents = [
-["placeholder adjective", "placeholder effect"],
-
-
-
+["0: Null", "Exile all creatures."],
+["1: Core", "Each player creates a token that's a copy of Wastes. (It's a basic land that taps for one colorless mana.)"],
+["2: Double", "Refresh this page twice. Do both effects. Fun Value 2 cannot trigger a copy of itself."],
+["3: Trine", "Create three 1/1 creature tokens that are all creature types and colors."],
+["4: Grid", "Add two colorless mana."],
+["5: Concept", "Search your library for a card and put it into exile face-down. Shuffle your library You may cast that card as long as it remains in exile."],
+["6: Ghast", "Create a colorless 5/5 creature token named Goner that's all creature types."],
+["7: Dark", "Prevent all combat damage that would be dealt this turn."],
+["8: Octo", "Each player may put a copy of Mr. Octomino from outside the game into their hand."],
+["9: Power", "You may cast any spell from the Power Nine: Ancestral Recall, Black Lotus, Mox Emerald, Mox Jet, Mox Pearl, Mox Ruby, Mox Sapphire, Timetwister, and Time Walk. If you do, every other player may cast a copy of Black Lotus."],
+["10: Deck", "Mill ten cards. You may put one of the milled cards into your hand. (To mill a card, put the top card of your library into your graveyard.)"],
+["11: Bolster", "Put a +1/+1 counter on eleven target creatures. If there are less than 11 creatures, put +1/+1 counters on all of them."],
+["12: Hour", "You may take an extra turn after this one. At the beginning of that turn’s end step, you lose the game."],
+["13: Triskaidekaphobia", "If any player has exactly 13 life, they lose the game."],
+["14: LOVE", "Creatures you control gain menace until end of turn."],
+["15: Fortune", "Each player creates two Treasure tokens. (They can be tapped and sacrificed for one mana of any color.)"],
+["16: Falter", "Each player sacrifices all artifact tokens they control."],
+  
 ];
 
 var flavorTextArray = [
